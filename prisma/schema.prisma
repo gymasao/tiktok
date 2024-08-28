@@ -1,0 +1,20 @@
+datasource db {
+  provider  = "postgresql"
+  url       = env("DATABASE_URL")
+  directUrl = env("DIRECT_URL")
+}
+
+generator client {
+  provider = "prisma-client-js"
+}
+
+model battle {
+  id         Int      @id @default(autoincrement())
+  win        Boolean
+  point      Int
+  first      String
+  second     String
+  third      String
+  opponent   String   @default("Unknown") // 対戦相手のデフォルト値を設定
+  created_at DateTime @default(now()) // 対戦日時として使用
+}
