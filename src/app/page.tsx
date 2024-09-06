@@ -14,6 +14,12 @@ export default function Home() {
         >
           お得なチャージ
         </a>
+        <a
+          href="https://line.me/ti/g2/PUP2JRRKqZtkKJoTylQetoPUAYxzBo8pIRWRTw?utm_source=invitation&utm_medium=link_copy&utm_campaign=default"
+          className="px-6 py-3 bg-blue-600 text-white font-medium text-lg rounded-lg shadow-md hover:bg-blue-700 focus:ring-4 focus:ring-blue-300 transition duration-300 ease-in-out"
+        >
+          サブスク専用オプチャ
+        </a>
       </div>
 
       <div className="bg-gradient-to-br from-gray-700 via-gray-800 to-black p-6 rounded-lg shadow-lg relative z-10 border border-gray-700">
