@@ -20,6 +20,12 @@ export default function Home() {
         >
           サブスク専用オプチャ
         </a>
+        <a
+          href="https://www.amazon.co.jp/hz/wishlist/ls?requiresSignIn=1&ref_=nav_AccountFlyout_wl"
+          className="px-6 py-3 bg-blue-600 text-white font-medium text-lg rounded-lg shadow-md hover:bg-blue-700 focus:ring-4 focus:ring-blue-300 transition duration-300 ease-in-out"
+        >
+          欲しいものリスト
+        </a>
       </div>
 
       <div className="bg-gradient-to-br from-gray-700 via-gray-800 to-black p-6 rounded-lg shadow-lg relative z-10 border border-gray-700">
