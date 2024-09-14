@@ -7,16 +7,16 @@ type Listener = {
 }
 
 const listeners: Listener[] = [
-  { id: 1, name: "Top Listener", image: "/placeholder.svg?height=100&width=100" },
-  { id: 2, name: "Alice", image: "/placeholder.svg?height=100&width=100" },
-  { id: 3, name: "Bob", image: "/placeholder.svg?height=100&width=100" },
-  { id: 4, name: "Charlie", image: "/placeholder.svg?height=100&width=100" },
-  { id: 5, name: "David", image: "/placeholder.svg?height=100&width=100" },
-  { id: 6, name: "Eve", image: "/placeholder.svg?height=100&width=100" },
-  { id: 7, name: "Frank", image: "/placeholder.svg?height=100&width=100" },
-  { id: 8, name: "Grace", image: "/placeholder.svg?height=100&width=100" },
-  { id: 9, name: "Henry", image: "/placeholder.svg?height=100&width=100" },
-  { id: 10, name: "Ivy", image: "/placeholder.svg?height=100&width=100" },
+  { id: 1, name: "Ura", image: "/images/ura.jpg" },
+  { id: 2, name: "よっしー", image: "/images/yosshi.jpg" },
+  { id: 3, name: "まいこ", image: "/images/maiko.jpg" },
+  { id: 4, name: "さえ", image: "/images/sae.jpg" },
+  { id: 5, name: "ひよこ", image: "/images/hiyoko.jpg" },
+  { id: 6, name: "machiko", image: "/images/machiko.jpg" },
+  { id: 7, name: "プリン", image: "/images/purin.jpg" },
+  { id: 8, name: "たかパラ", image: "/images/takapara.jpg" },
+  { id: 9, name: "もっち", image: "/images/mocchi.jpg" },
+  { id: 10, name: "Sara", image: "/images/sara.jpg" },
 ]
 
 export default function GridSection() {

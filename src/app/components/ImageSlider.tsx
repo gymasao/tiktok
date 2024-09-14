@@ -21,7 +21,7 @@ export default function ImageSlider() {
   }, [])
 
   return (
-    <div className="relative w-full h-[400px]">
+    <div className="relative w-full h-[350px]">
       {images.map((src, index) => (
         <Image
           key={src}
