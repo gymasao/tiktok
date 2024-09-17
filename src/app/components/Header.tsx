@@ -9,7 +9,7 @@ export default function Header() {
   const links = [
     { href: '/', label: 'Home' },
     { href: '/battle', label: 'バトル結果' },
-    { href: '/projects', label: 'Projects' },
+    { href: 'https://www.tiktok.com/coin?lang=ja-JP', label: 'コインチャージ' },
     { href: '/contact', label: 'Contact' },
   ]
 
