@@ -2,7 +2,7 @@
 
 import Header from '../components/Header'
 import { CreateBattleResultForm } from "../components/CreateBattleResult"
-import { BattleResultList } from "../components/TodoList"
+import { BattleResultList } from "../components/BattleResultList"
 
 export default function Home() {
   return (

@@ -36,3 +36,23 @@ export const deleteBattleResult = async (id: number) => {
   // ページの再検証
   revalidatePath('/');
 };
+
+// すべてのバトル結果を取得する関数
+// ページごとにバトル結果を取得する関数
+export const getBattlesWithPagination = async (page: number, pageSize: number = 20) => {
+  try {
+    const battles = await prisma.battle.findMany({
+      orderBy: {
+        created_at: 'desc',
+      },
+      skip: (page - 1) * pageSize, // スキップするデータ数
+      take: pageSize, // 1ページあたりの取得件数
+    });
+
+    const totalBattles = await prisma.battle.count(); // 総バトル数を取得
+    return { battles, totalBattles };
+  } catch (error) {
+    console.error("Error fetching battles:", error);
+    return { battles: [], totalBattles: 0 };
+  }
+};

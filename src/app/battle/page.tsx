@@ -1,7 +1,5 @@
-'use client'
-
 import Header from '../components/Header'
-import { BattleResultList } from "../components/TodoList"
+import { BattleResultList } from "../components/BattleResultList"
 
 export default function Home() {
   return (
