@@ -85,14 +85,14 @@ export default function BattleResultListUI({ battles: initialBattles, totalBattl
                     disabled={page === 1}
                     className="bg-gray-600 text-white px-4 py-2 rounded-md"
                 >
-                    前の20件
+                    前の10件
                 </button>
                 <button
                     onClick={() => setPage((prev) => Math.min(prev + 1, totalPages))}
                     disabled={page === totalPages}
                     className="bg-gray-600 text-white px-4 py-2 rounded-md"
                 >
-                    次の20件
+                    次の10件
                 </button>
             </div>
             <p className="text-center text-gray-400 mt-4">ページ {page} / {totalPages}</p>
