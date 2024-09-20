@@ -10,7 +10,6 @@ export default function Header() {
     { href: '/', label: 'Home' },
     { href: '/battle', label: 'バトル結果' },
     { href: 'https://www.tiktok.com/coin?lang=ja-JP', label: 'コインチャージ' },
-    { href: '/contact', label: 'Contact' },
   ]
 
   return (

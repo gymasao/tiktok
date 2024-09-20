@@ -56,3 +56,31 @@ export const getBattlesWithPagination = async (page: number, pageSize: number = 
     return { battles: [], totalBattles: 0 };
   }
 };
+
+export const addNews = async (formData: FormData) => {
+  const title = formData.get('title') as string;
+
+  await prisma.news.create({
+    data: {
+      title,
+    },
+  });
+
+  // ページの再検証
+  revalidatePath('/');
+};
+
+export const getAllNews = async () => {
+  try {
+    const news = await prisma.news.findMany({
+      orderBy: {
+        created_at: 'desc', // 'created_at'を'date'に修正
+      },
+      take: 5, // 最新の5件を取得
+    });
+    return news;
+  } catch (error) {
+    console.error("Error fetching news:", error);
+    return [];
+  }
+};

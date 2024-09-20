@@ -18,3 +18,9 @@ model battle {
   opponent   String   @default("Unknown") // 対戦相手のデフォルト値を設定
   created_at DateTime @default(now()) // 対戦日時として使用
 }
+
+model news {
+  id         Int      @id @default(autoincrement())
+  title      String
+  created_at DateTime @default(now()) // 対戦日時として使用
+}

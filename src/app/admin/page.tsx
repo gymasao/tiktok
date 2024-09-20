@@ -3,6 +3,7 @@ import Link from 'next/link'
 export default function LinkSection() {
   const links = [
     { href: '/admin/battles', label: 'battles' },
+    { href: '/admin/news', label: 'News' },
   ]
 
   return (

@@ -2,10 +2,9 @@ import Link from 'next/link'
 
 export default function LinkSection() {
   const links = [
-    { href: '/projects', label: 'Projects' },
-    { href: '/skills', label: 'Skills' },
-    { href: '/resume', label: 'Resume' },
-    { href: '/contact', label: 'Contact' },
+    { href: '/battle', label: 'バトル結果' },
+    { href: 'https://line.me/ti/g2/PUP2JRRKqZtkKJoTylQetoPUAYxzBo8pIRWRTw?utm_source=invitation&utm_medium=link_copy&utm_campaign=default', label: 'サブスク限定オプチャ' },
+    { href: 'https://www.tiktok.com/coin?lang=ja-JP', label: 'コインチャージ' },
   ]
 
   return (
