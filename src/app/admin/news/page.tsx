@@ -1,5 +1,6 @@
 import Header from "@/app/components/Header"
 import { CreateNews } from "@/app/components/CreateNews"
+import NewsSection from "@/app/components/LinkSection"
 
 export default function Home() {
     return (
@@ -16,6 +17,7 @@ export default function Home() {
                     <h2 className="text-2xl font-semibold mb-4">Record Your Battle</h2>
                     <CreateNews />
                 </div>
+                <NewsSection />
             </main>
         </div>
     )
