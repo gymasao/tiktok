@@ -27,11 +27,10 @@ export default function ImageSlider() {
           key={src}
           src={src}
           alt={`Slide ${index + 1}`}
-          layout="fill"
-          objectFit="contain" // objectFitをcontainに変更
-          className={`transition-opacity duration-1000 ${
-            index === currentImage ? 'opacity-100' : 'opacity-0'
-          }`}
+          fill
+          style={{ objectFit: 'contain' }}
+          className={`transition-opacity duration-1000 ${index === currentImage ? 'opacity-100' : 'opacity-0'
+            }`}
         />
       ))}
     </div>
