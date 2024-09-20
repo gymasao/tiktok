@@ -1,5 +1,3 @@
-'use client'
-
 import Header from '../components/Header'
 import { CreateBattleResultForm } from "../components/CreateBattleResult"
 import { BattleResultList } from "../components/BattleResultList"
