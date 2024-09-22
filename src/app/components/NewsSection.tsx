@@ -5,6 +5,8 @@ export default function LinkSection() {
     { href: '/battle', label: 'バトル結果' },
     { href: 'https://line.me/ti/g2/PUP2JRRKqZtkKJoTylQetoPUAYxzBo8pIRWRTw?utm_source=invitation&utm_medium=link_copy&utm_campaign=default', label: 'サブスク限定オプチャ' },
     { href: 'https://www.tiktok.com/coin?lang=ja-JP', label: 'コインチャージ' },
+    { href: 'https://www.freem.ne.jp/win/game/31973', label: 'まさおクエスト' },
+
   ]
 
   return (
