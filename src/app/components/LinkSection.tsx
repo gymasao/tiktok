@@ -35,7 +35,7 @@ export default function NewsSection() {
         {news.map((item) => (
           <li key={item.id} className="bg-gray-100 p-4 rounded-lg">
             <h3 className="font-semibold">{item.title}</h3>
-            <p className="text-sm text-gray-600">{new Date(item.created_at).toLocaleDateString()}</p>
+            <p className="text-sm text-gray-600">{new Date(item.created_at).toLocaleString()}</p>
           </li>
         ))}
       </ul>
