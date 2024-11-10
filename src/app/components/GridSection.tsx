@@ -8,15 +8,15 @@ type Listener = {
 
 const listeners: Listener[] = [
   { id: 1, name: "Ura", image: "/images/ura.jpg" },
-  { id: 2, name: "よっしー", image: "/images/yosshi.jpg" },
-  { id: 3, name: "まいこ", image: "/images/maiko.jpg" },
   { id: 5, name: "ひよこ", image: "/images/hiyoko.jpg" },
   { id: 4, name: "さえ", image: "/images/sae.jpg" },
-  { id: 7, name: "プリン", image: "/images/purin.jpg" },
-  { id: 6, name: "machiko", image: "/images/machiko.jpg" },
-  { id: 10, name: "Sara", image: "/images/sara.jpg" },
-  { id: 8, name: "たかパラ", image: "/images/takapara.jpg" },
+  { id: 3, name: "まいこ", image: "/images/maiko.jpg" },
   { id: 9, name: "もっち", image: "/images/mocchi.jpg" },
+  { id: 8, name: "たかパラ", image: "/images/takapara.jpg" },
+  { id: 6, name: "machiko", image: "/images/machiko.jpg" },
+  { id: 7, name: "プリン", image: "/images/purin.jpg" },
+  { id: 2, name: "よっしー", image: "/images/yosshi.jpg" },
+  { id: 12, name: "まるもこ", image: "/images/marumoko.jpg" },
   { id: 11, name: "ふみ", image: "/images/fumi.jpg" },
 ]
 
