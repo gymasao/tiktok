@@ -23,7 +23,7 @@ const listeners: Listener[] = [
 export default function GridSection() {
   return (
     <div className="container mx-auto px-4 py-8">
-      <h2 className="text-2xl font-bold mb-6 text-center">9月活躍したリスナー</h2>
+      <h2 className="text-2xl font-bold mb-6 text-center">10月活躍したリスナー</h2>
       <div className="grid grid-cols-4 gap-4 max-w-3xl mx-auto">
         {listeners.map((listener, index) => (
           <div
